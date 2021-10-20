@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: royalblue;
+    }
+    main {
+        margin: 50px auto;
+        height: auto;
+        width: 80%;
+        border: 2px dotted rebeccapurple;
+        font-size: 18 px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: seashell;
+    }
+    h2 {
+        font-size: 0,8em;
+        padding: 5px 0 9px 0;
+    }
+    .borda {
+        border: 1px solid red;
+    }
+    .margem-left {
+        margin-left: 30px;
+    }
+    .remove-bullets {
+        list-style: none;
+    }
+    li {
+        width: 100%;
+        height: auto;
+        background-color: skyblue;
+        margin: 2px;
+    }
+    div {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        background-color: springgreen;
+        margin: 5px;
+        display: inline-block;
+        
+    }
+    a {
+        width: 100%;
+        height: 20px;
+        display: block;
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <main>
+        <h2>LISTA DESORDENADA</h2>
+        <ul class="borda margem-left remove-bullets" >
+            <li>amora</li>
+            <li>pitanga</li>
+            <li>acerola</li>
+            <li>morango</li>
+            <li><a href="#">Clique Aqui</a></li>
+        </ul>
+        <h2>LISTA ORDENADA</h2>
+        <ol class="margem-left" type="A">
+            <li>amora</li>
+            <li>pitanga</li>
+            <li>acerola</li>
+            <li>morango</li>
+            <li><a href="#">Clique Aqui</a></li>
+        </ol>
+        <h2>LISTA POR DEFINIÇÃO</h2>
+        <dl>
+            <dt><strong>FIAT</strong></dt>
+            <dd>Tempra</dd>
+            <dd>Uno</dd>
+            <dt><strong>VW</strong></dt>
+            <dd>Fusca</dd>
+            <dd>Gol</dd>
+        </dl>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+</body>
+</html>
